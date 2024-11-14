@@ -36,7 +36,11 @@ if __name__ == "__main__":
                                                   
     print(title)
     no = re.compile(r'[Nn][Oo]?')
-    with open('/home/mothballs/Scripts/python/nse_scripts', 'r') as file:
+<<<<<<< HEAD
+    with open('./nse_scripts', 'r') as file:
+=======
+    with open('./nse_scripts', 'r') as file:
+>>>>>>> 0599501 (Initial commit)
         text = file.read()
         entries = parse_entries(text)
     
